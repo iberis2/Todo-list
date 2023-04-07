@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#toDoList {
+  min-width: 60%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 0.9em;
+  padding: auto;
+  margin-left: 5px;
+}
+
+#listContainer {
+  height: 40px;
+  margin: 5px 0 5px 0;
+  padding: 0 7px 0 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 1px hsl(354, 79%, 76%);
+  cursor: pointer;
+}
+
+button {
+  background-color: #ffe1e1;
+  border: none;
+  border-radius: 5px;
+  padding: 3px 7px;
+  color: grey;
+  cursor: pointer;
+}
+
+.checked {
+  color: #6c567b;
+  text-decoration: line-through;
+  opacity: 0.6;
+}

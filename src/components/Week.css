@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Nanum Myeongjo";
+  src: url("../fonts/NanumMyeongjo-Bold.ttf");
+}
+@font-face {
+  font-family: "SEBANG";
+  src: url("../fonts/SEBANG\ Gothic.ttf");
+}
+
+#weekCalender {
+  /* max-width: 100em;
+  min-width: 120em; */
+  left: 50%;
+  right: 50%;
+}
+
+.Year-Month {
+  text-align: center;
+  font-family: "SEBANG";
+  font-style: italic;
+  font-size: 2em;
+  color: #93909c;
+}
+
+#Weekly {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dates-day {
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.dates-day span {
+  font-family: "Nanum Myeongjo";
+  font-size: 0.9em;
+}
+
+.dates-day:nth-child(1) {
+  border: 2px solid hsl(354, 79%, 76%);
+  border-radius: 10px;
+}
+
+.dates-day:hover {
+  background-color: hsl(354, 79%, 76%);
+}
+
+.dates-day:hover span {
+  color: white;
+}
+
+.Sun {
+  color: #f35063;
+}
+.Sat {
+  color: #0089d5;
+}
